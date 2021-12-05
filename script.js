@@ -24,7 +24,7 @@ var theYear = parseInt(getThe_Year, 10) + parseInt(year, 10);
 var interest = Math.floor(p * year * rate / 100);
 var result = "If you deposit <mark>" + p +
     "</mark>,<br> at an interest rate of <mark mark > " + rate +
-    "</mark>,<br> You will receive an amount of <mark>" + interest +
+    "% </mark>,<br> You will receive an amount of <mark>" + interest +
         ",</mark> <br> in the year <mark>" + theYear + "</mark>";
 
 document.getElementById("result").innerHTML =result;
