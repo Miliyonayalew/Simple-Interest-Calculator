@@ -1,4 +1,26 @@
-body {background-color:tan;}
-h1{color:green;}
-
-
+body {
+  background-color: black;
+  font-family: arial narrow;
+  color: white;
+}
+.container {
+  position: relative;
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  height: 350px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 40px;
+  box-sizing: border-box;
+  color: black;
+}
+h1 {
+  color: #7e7e7e;
+  text-align: center;
+  font-family: arial black;
+}
+table {
+  margin-left: 100px;
+}
